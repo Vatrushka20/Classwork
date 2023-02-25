@@ -8,6 +8,60 @@
     <title>Document</title>
 </head>
 <body>
-bdvbjbvbv b
+
+<form class="form" action="http://localhost">
+    <label for="fname">Повне ім’я</label>
+    <input type="text" placeholder="name" id="fname">
+    <br/>
+
+    <label for="mail">Email</label>
+    <input type="text" id="mail">
+    <br/>
+
+    <!--Перемикачі або радіокнопки, щоб вибрати один з варіантів-->
+    <label>Стать</label>
+    <input id="women" type="radio" name="fav_language">
+    <label for="women">жіноча</label>
+    <input id="man" type="radio" name="fav_language">
+    <label for="man">чоловіча</label>
+    <br/>
+
+    <!--    <створення спадного списка>-->
+    <label for="type">Курс</label>
+    <select id="type" name="course">
+        <option value="Front-End">Front-End</option>
+        <option value="Back-End">Back-End</option>
+        <option value="Project Management">Project Management</option>
+        <option value="QA Manual">QA Manual</option>
+    </select>
+    <br/>
+    <!--    <Прапорці або чекбокси>-->
+    <label>
+        <input type="checkbox">
+        Я погоджуюся з умовами конфіденційності
+    </label>
+
+    <!--    <input type="checkbox" id="agree" name="agree" value="agree">-->
+    <!--    <label for="agree">Я погоджуюся з умовами конфіденційності</label><br>-->
+
+    <!--    <label>-->
+    <!--        <input type="checkbox" name="skills[]" value="html"> HTML-->
+    <!--    </label>-->
+
+    <!--    <label>-->
+    <!--        <input type="checkbox"name="skills[]" value="css">  CSS-->
+    <!--    </label>-->
+
+    <!--    <label>-->
+    <!--        <input type="checkbox" name="skills[]" value="js"> JavaScript-->
+    <!--    </label>-->
+    <br/>
+
+    <!--    <Відправка даних форми та очистка данних форми-->
+    <input type="reset" value="Очистити форму">
+    <input type="submit" value="Зареєструватись">
+</form>
+
+
 </body>
 </html>
